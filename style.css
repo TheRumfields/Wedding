@@ -9,7 +9,7 @@ body {
     
     /* BACKGROUND IMAGE SETTINGS */
     background-color: #f5f5dc; /* Fallback beige */
-    background-image: url('love-146.jpg');
+    background-image: url(love-146.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
