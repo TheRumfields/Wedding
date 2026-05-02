@@ -1,0 +1,47 @@
+/* style.css */
+body {
+    background-color: #f5f5dc; /* Light Beige */
+    color: #000000; /* Black Font */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+}
+
+.details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.rsvp-section {
+    margin-top: 50px;
+    border-top: 1px solid #000;
+    padding-top: 30px;
+}
