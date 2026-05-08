@@ -1,23 +1,14 @@
 /* 
-   WEDDING RECEPTION: ROBERT & GABBY 
-   SEPTEMBER 4, 2026 
+   THE RUMFIELD RECEPTION
+   STYLE: CLASSIC LITERARY MINIMALISM
 */
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
-    text-align: center;
-    
-    /* BACKGROUND IMAGE SETTINGS */
-    background-color: #f5f5dc; 
-    background-image: url('love-146.jpg');
-    background-size: cover;
-    background-position: center top;
-    background-attachment: scroll; /* Photo moves with the scroll */
-    background-repeat: no-repeat;
-    
+    background-color: #ffffff; /* Stark White Background */
+    color: #1a1a1a; /* Soft Black for better readability */
+    font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -26,80 +17,85 @@ body {
 
 .container {
     width: 90%;
-    max-width: 700px;
-    margin: 60px 20px;
-    padding: 50px 25px;
+    max-width: 650px;
+    margin: 80px 20px;
+    padding: 60px 40px;
     
-    /* OPAQUE BEIGE BOX WITH BLUR */
-    background-color: rgba(245, 245, 220, 0.85); 
-    border-radius: 25px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    /* OFF-WHITE BOX: ALABASTER/PARCHMENT */
+    background-color: #f9f8f4; 
+    border: 1px solid #e0e0e0; /* Very light border for definition */
+    border-radius: 4px; /* Sharper corners for a more formal feel */
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
 h1 {
     font-family: 'Great Vibes', cursive;
-    font-size: clamp(2.5rem, 8vw, 4rem);
-    margin: 0 0 10px 0;
+    font-size: clamp(2.5rem, 8vw, 3.5rem);
     font-weight: normal;
+    margin-bottom: 5px;
 }
 
 .subtitle {
-    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 6px;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    color: #666;
     margin-bottom: 40px;
-    display: block;
 }
 
 .details p {
-    font-size: 1.3rem;
-    margin: 12px 0;
-    font-weight: 300;
+    font-size: 1.25rem;
+    margin: 10px 0;
+    font-style: italic;
 }
 
-.rsvp-section {
-    margin-top: 50px;
-    border-top: 1px solid rgba(0,0,0,0.1);
-    padding-top: 40px;
+.date, .location {
+    font-weight: 400;
+    font-style: normal !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.1rem !important;
 }
 
-h2 {
+.divider {
+    width: 50px;
+    border: 0;
+    border-top: 1px solid #1a1a1a;
+    margin: 40px auto;
+}
+
+.rsvp-section h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .form-container {
     width: 100%;
-    margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
+    background-color: #ffffff; /* Pure white inside the off-white box */
+    border: 1px solid #eee;
+    padding: 5px;
 }
 
-/* OPAQUE FORM EFFECT */
 iframe {
-    border: none;
-    border-radius: 15px;
     width: 100%;
-    opacity: 0.88; /* Makes the form 12% see-through */
-    transition: opacity 0.3s ease;
+    border: none;
 }
 
-iframe:hover {
-    opacity: 0.98; /* Becomes solid when guests interact with it */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
 }
 
 /* MOBILE FIXES */
 @media (max-width: 600px) {
     .container {
-        padding: 35px 15px;
-        margin: 30px 10px;
-    }
-    
-    h1 {
-        font-size: 2.8rem;
+        padding: 40px 20px;
+        margin: 40px 10px;
     }
 }
